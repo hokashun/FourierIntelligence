@@ -11,7 +11,7 @@ For the development using virtual environment, refer to [Extended Development Th
 
 For the development using physical robot, refer to [Extended Development Through Physical GR-1 Robot](#extended-development-through-physical-gr-1-robot).
 
-## About Fourier GR-1
+# Fourier GR-1
 
 Fourier GR-1 is a general-purpose humanoid robot. It is composed of up to 40 FSA joints, which can provide 230 N.m peak joint torque. The whole body controll algorithm enables 44 full-body degrees of freedom.
 
@@ -30,7 +30,7 @@ The Fourier GR-1 offers scalability for validating various AI models and algorit
 
 ![1698383000820](image/readme/1698383000820.png)
 
-### GR-1 Specifications
+## GR-1 Specifications
 
 | Mechanical    |                                      |
 | ------------- | ------------------------------------ |
@@ -90,9 +90,73 @@ The Fourier GR-1 offers scalability for validating various AI models and algorit
 | Memory                           | 16 G                                                                  |
 | SSD                              | 512 G                                                                 |
 
-### Operation Instruction
+## Operation Instruction
 
-Before use
+#### Before power-on
+
+Do the following steps before powering on the robot:
+
+1. Inspect robot.
+   Confirm that the robot is fastened to the support stand.
+   Confirm that the batteries of robot and the support stand are fully chareged.
+   Confirm that the robot components moves smoothly.
+
+   ![1698657344119](image/README/1698657344119.png)
+2. Inspect environment.
+   Confirm that a 4 m clearance in the vicinity of the robot and the ground is level and dry.
+
+   ![1698656074242](image/README/1698656074242.png)
+3. Connect robot to monitor.
+   Power on the router.
+   Connect monitor with Type-C interface through the extension dock.
+
+   ![1698657743472](image/README/1698657743472.png)
+4. Prepare arms ready for calibration.
+   Align shoulder grooves.
+   Keep arms straight downards and palms inwards-facing.
+   Ensure a 10 cm interval between palms and hips.
+   Keep the robot stand up straight.
+
+   ![1698658681237](image/README/1698658681237.png)
+
+### Powering on Robot
+
+1. Press actuator power-on button.
+2. Press robot host power-on button.
+3. Release e-stop switch.
+
+   ![1698659185945](image/README/1698659185945.png)
+4. Initialize robot arms and legs through desktop terminal.
+
+   ![1698659528356](image/README/1698659528356.png)
+
+### Connecting Remote Controller
+
+遥控器网络设置中连接机器人Wi-Fi.
+
+### Landing Robot
+
+1. 机器人初始状态
+2. 机器人落地
+3. 站立模式
+
+### Controlling Robot
+
+1. 步态运动/原地运动
+2. 遥控模式/开发者模式
+3. 图传开启/图传关闭
+
+停止机器人
+
+遥控器停止机器人
+停止后恢复
+
+### Powering off Robot
+
+1. 移动并固定机器人
+2. 按下急停开关，关闭电机电源
+3. 连接显示器
+4. 关闭程序，关闭机器人电脑
 
 ## About Robot Control System (RoCS)
 
