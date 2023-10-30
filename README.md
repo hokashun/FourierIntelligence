@@ -121,14 +121,27 @@ Do the following steps before powering on the robot:
 
 ### Powering on Robot
 
-1. Press actuator power-on button.
-2. Press robot host power-on button.
-3. Release e-stop switch.
+1. 
+2. Press actuator power-on button.
+3. Press robot host power-on button.
+4. Release e-stop switch.
 
    ![1698659185945](image/README/1698659185945.png)
-4. Initialize robot arms and legs through desktop terminal.
+5. Initialize robot arms and legs through desktop terminal.
+   Enter the following command to calibrate arms.
 
-   ![1698659528356](image/README/1698659528356.png)
+   ```
+   $sh arm .sh
+   ```
+
+   Enter the following command to calibrate legs.
+
+   ```
+   $sh leg.sh
+   ```
+6. The robot is started successfullly if the indicator lights of actuators and robot host flash regularly.
+
+   ![1698661268810](image/README/1698661268810.png)
 
 ### Connecting Remote Controller
 
