@@ -121,7 +121,7 @@ Do the following steps before powering on the robot:
 
 ### Powering on Robot
 
-1. 
+1.
 2. Press actuator power-on button.
 3. Press robot host power-on button.
 4. Release e-stop switch.
@@ -139,6 +139,7 @@ Do the following steps before powering on the robot:
    ```
    $sh leg.sh
    ```
+
 6. The robot is started successfullly if the indicator lights of actuators and robot host flash regularly.
 
    ![1698661268810](image/README/1698661268810.png)
