@@ -121,13 +121,12 @@ Do the following steps before powering on the robot:
 
 ### Powering on Robot
 
-1.
-2. Press actuator power-on button.
-3. Press robot host power-on button.
-4. Release e-stop switch.
+1. Press actuator power-on button.
+2. Press robot host power-on button.
+3. Release e-stop switch.
 
    ![1698659185945](image/README/1698659185945.png)
-5. Initialize robot arms and legs through desktop terminal.
+4. Initialize robot arms and legs through desktop terminal.
    Enter the following command to calibrate arms.
 
    ```
@@ -139,38 +138,56 @@ Do the following steps before powering on the robot:
    ```
    $sh leg.sh
    ```
-
-6. The robot is started successfullly if the indicator lights of actuators and robot host flash regularly.
+5. The robot is started successfullly if the indicator lights of actuators and robot host flash regularly.
 
    ![1698661268810](image/README/1698661268810.png)
 
-### Connecting Remote Controller
+### Connecting Remote Controller to Robot
 
-遥控器网络设置中连接机器人Wi-Fi.
+1. Switch on the remote controller and open the System Settings interface.
+2. Input the Wi-Fi account and password specified on the back of the robot.
+
+![1698736555432](image/README/1698736555432.png)
+
+1. Click **Connect** .
+   A successful prompt will be given if when the connection succeeds.
 
 ### Landing Robot
 
-1. 机器人初始状态
-2. 机器人落地
-3. 站立模式
+1. Ensure that the robot is fastened to the support stand.
+2. Click **Initial** to make the robot to initial state.
+   ![1698744141867](image/README/1698744141867.png)
+3. Lower the robot with the lift of the support stand.
+   Make sure the robot's feet stably contact with the ground.
+4. Click **Stand** in the remote controller.
+
+![1698744210172](image/README/1698744210172.png)
 
 ### Controlling Robot
 
-1. 步态运动/原地运动
-2. 遥控模式/开发者模式
-3. 图传开启/图传关闭
+1. Power on the remote controller and connect to the robot's Wi-Fi.
+2. Operate the remote controller to control the motion of the robot.
+   Use left handler to move the robot. Use right handler to control the vision field.
 
-停止机器人
+   ![1698744913325](image/README/1698744913325.png)
 
-遥控器停止机器人
-停止后恢复
+### Pausing Robot Motion
+
+Following two approaches are used to pause the motion of the robot:
+
+* Press the **Stand** button on the remote controller.
+* Press down the E-stop in case of danger or any emergency situation.
+  This would cut off the power supply of the robot and risk of data loss.
 
 ### Powering off Robot
 
-1. 移动并固定机器人
-2. 按下急停开关，关闭电机电源
-3. 连接显示器
-4. 关闭程序，关闭机器人电脑
+1. Fasten the robot to the supoort stand.
+2. Press the E-stop button.
+3. Press the actuator power button to power off the actuator.
+4. Connect the robot to the monitor.
+5. Kill the processes of the control software and then power off the robot host through the desktop terminal.
+
+   ![1698745650898](image/README/1698745650898.png)
 
 ## About Robot Control System (RoCS)
 
