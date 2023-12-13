@@ -1,6 +1,3 @@
-<!-- Including breadcrumb.html -->
-<script type="text/breadcrumb" src="D:\reference\FourierIntelligence/breadcrumb.html"></script>
-
 # Concepts
 
 This documentation is intended to guide you for the extended development of GR-1 based on the SDKs provided.
@@ -141,7 +138,6 @@ Do the following steps before powering on the robot:
    ```
    $sh leg.sh
    ```
-
 5. The robot is started successfullly if the indicator lights of actuators and robot host flash regularly.
 
    ![1698661268810](image/README/1698661268810.png)
