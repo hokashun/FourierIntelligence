@@ -1,8 +1,6 @@
 # What it is
 
-> Where motion masters meet integrated excellence.
-
-
+> Where smart motion masters meet integrated excellence.
 
 The FSA Actuator Series represents a remarkable leap in the world of motion control. One of the defining characteristics of the FSA Actuator Series is its highly integrated design.
 
